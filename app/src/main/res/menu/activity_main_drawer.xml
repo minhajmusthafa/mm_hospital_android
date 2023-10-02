@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/menu_home" />
+<!--        <item-->
+<!--            android:id="@+id/nav_gallery"-->
+<!--            android:icon="@drawable/ic_menu_gallery"-->
+<!--            android:title="@string/menu_gallery" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_slideshow"-->
+<!--            android:icon="@drawable/ic_menu_slideshow"-->
+<!--            android:title="@string/menu_slideshow" />-->
+        <item
+            android:id="@+id/update"
+            android:icon="@drawable/baseline_person_24"
+            android:title="UPDATE PROFILE" />
+        <item
+            android:id="@+id/schedule"
+            android:icon="@drawable/scheduleicon"
+            android:title="SCHEDULE" />
+        <item
+            android:id="@+id/booking"
+            android:icon="@drawable/booking_history"
+            android:title="BOOKING" />
+        <item
+            android:id="@+id/doctor"
+            android:icon="@drawable/doctord"
+            android:title="DOCTORS" />
+
+        <item
+            android:id="@+id/changepass"
+            android:icon="@drawable/baseline_password_24"
+            android:title="CHANGE PASSWORD" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/baseline_logout_24"
+            android:title="LOG OUT" />
+    </group>
+</menu>
