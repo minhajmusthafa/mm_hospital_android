@@ -26,7 +26,7 @@ import java.util.Map;
 
 public class rating extends AppCompatActivity {
     RatingBar rat;
-    Button btn;
+    Button btn,btn3;
     SharedPreferences sh;
     String ip, url;
 
