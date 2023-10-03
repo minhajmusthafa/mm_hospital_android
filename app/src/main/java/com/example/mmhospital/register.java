@@ -81,15 +81,7 @@ public class register extends AppCompatActivity {
         }
 
 
-//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && ContextCompat.checkSelfPermission(this,
-//                Manifest.permission.READ_EXTERNAL_STORAGE)
-//                != PackageManager.PERMISSION_GRANTED) {
-//            Intent intent = new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS,
-//                    Uri.parse("package:" + getPackageName()));
-//            finish();
-//            startActivity(intent);
-//            return;
-//        }
+
         imgp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
